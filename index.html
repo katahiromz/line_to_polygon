@@ -75,17 +75,18 @@
             if (debugging) {
                 // 黄色い頂点を描く(デバッグ用)
                 ctx.fillStyle = "yellow";
+                let radius = 3;
                 ctx.beginPath();
-                ctx.arc(p0x, p0y, 3, 0, 2 * Math.PI, false);
+                ctx.arc(p0x, p0y, radius, 0, 2 * Math.PI, false);
                 ctx.fill();
                 ctx.beginPath();
-                ctx.arc(p1x, p1y, 3, 0, 2 * Math.PI, false);
+                ctx.arc(p1x, p1y, radius, 0, 2 * Math.PI, false);
                 ctx.fill();
                 ctx.beginPath();
-                ctx.arc(p2x, p2y, 3, 0, 2 * Math.PI, false);
+                ctx.arc(p2x, p2y, radius, 0, 2 * Math.PI, false);
                 ctx.fill();
                 ctx.beginPath();
-                ctx.arc(p3x, p3y, 3, 0, 2 * Math.PI, false);
+                ctx.arc(p3x, p3y, radius, 0, 2 * Math.PI, false);
                 ctx.fill();
             }
         };
