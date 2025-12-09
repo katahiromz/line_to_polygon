@@ -22,7 +22,7 @@ JavaScriptでポリゴンを使って線を描きます。
  * @param {number} y1 - 終点 (P1) のY座標。
  * @param {boolean} [debugging=false] - trueの場合、計算された4つの頂点を黄色の点で描画する。
  */
-const drawLineByPolygon = (ctx, x0, y0, x1, y1, debugging = false) => {
+const drawLineAsPolygon = (ctx, x0, y0, x1, y1, debugging = false) => {
     const lineWidth = ctx.lineWidth;
     const halfWidth = lineWidth / 2;
     // 1. 方向ベクトルの計算
