@@ -15,7 +15,7 @@ JavaScriptでポリゴンを使って線を描きます。
  * 2点間に幅を持った線（矩形ポリゴン）を描画する。
  * これは、Canvasの標準的な ctx.stroke() による描画ではなく、
  * 線の幅に基づいて計算された4つの頂点を持つ多角形を ctx.fill() で塗りつぶす手法。
- * * @param {CanvasRenderingContext2D} ctx - 描画に使用するCanvas 2Dコンテキスト。lineWidth, strokeStyleが適用される。
+ * @param {CanvasRenderingContext2D} ctx - 描画に使用するCanvas 2Dコンテキスト。lineWidth, strokeStyleが適用される。
  * @param {number} x0 - 始点 (P0) のX座標。
  * @param {number} y0 - 始点 (P0) のY座標。
  * @param {number} x1 - 終点 (P1) のX座標。
